@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66369A432017A28500D0CAB7 /* ApologiesAppolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66369A422017A28500D0CAB7 /* ApologiesAppolViewController.swift */; };
+		663C72E7200E98E700FD5F2B /* wordlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 663C72E6200E98E700FD5F2B /* wordlist.txt */; };
+		667B4A702007BD9700EB0E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B4A6F2007BD9700EB0E0D /* AppDelegate.swift */; };
+		667B4A722007BD9700EB0E0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B4A712007BD9700EB0E0D /* ViewController.swift */; };
+		667B4A752007BD9700EB0E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667B4A732007BD9700EB0E0D /* Main.storyboard */; };
+		667B4A772007BD9700EB0E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667B4A762007BD9700EB0E0D /* Assets.xcassets */; };
+		667B4A7A2007BD9700EB0E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667B4A782007BD9700EB0E0D /* LaunchScreen.storyboard */; };
+		66ACCCEC2008FE9C00A02295 /* desculpas.txt in Resources */ = {isa = PBXBuildFile; fileRef = 66ACCCEB2008FE9C00A02295 /* desculpas.txt */; };
+		66ACCCEE2009208400A02295 /* wordlist2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 66ACCCED2009208400A02295 /* wordlist2.txt */; };
+		66ACCCF1200925D800A02295 /* SpamMessageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 667B4A812007BE2800EB0E0D /* SpamMessageClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66369A422017A28500D0CAB7 /* ApologiesAppolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApologiesAppolViewController.swift; sourceTree = "<group>"; };
+		663C72E6200E98E700FD5F2B /* wordlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
+		667B4A6C2007BD9700EB0E0D /* CremosaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CremosaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		667B4A6F2007BD9700EB0E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		667B4A712007BD9700EB0E0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		667B4A742007BD9700EB0E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		667B4A762007BD9700EB0E0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		667B4A792007BD9700EB0E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		667B4A7B2007BD9700EB0E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667B4A812007BE2800EB0E0D /* SpamMessageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SpamMessageClassifier.mlmodel; sourceTree = "<group>"; };
+		66ACCCEB2008FE9C00A02295 /* desculpas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = desculpas.txt; sourceTree = "<group>"; };
+		66ACCCED2009208400A02295 /* wordlist2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist2.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		667B4A692007BD9700EB0E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		667B4A632007BD9700EB0E0D = {
+			isa = PBXGroup;
+			children = (
+				667B4A6E2007BD9700EB0E0D /* CremosaApp */,
+				667B4A6D2007BD9700EB0E0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		667B4A6D2007BD9700EB0E0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667B4A6C2007BD9700EB0E0D /* CremosaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		667B4A6E2007BD9700EB0E0D /* CremosaApp */ = {
+			isa = PBXGroup;
+			children = (
+				667B4A6F2007BD9700EB0E0D /* AppDelegate.swift */,
+				66ACCCEB2008FE9C00A02295 /* desculpas.txt */,
+				66ACCCED2009208400A02295 /* wordlist2.txt */,
+				663C72E6200E98E700FD5F2B /* wordlist.txt */,
+				66369A422017A28500D0CAB7 /* ApologiesAppolViewController.swift */,
+				667B4A712007BD9700EB0E0D /* ViewController.swift */,
+				667B4A812007BE2800EB0E0D /* SpamMessageClassifier.mlmodel */,
+				667B4A732007BD9700EB0E0D /* Main.storyboard */,
+				667B4A762007BD9700EB0E0D /* Assets.xcassets */,
+				667B4A782007BD9700EB0E0D /* LaunchScreen.storyboard */,
+				667B4A7B2007BD9700EB0E0D /* Info.plist */,
+			);
+			path = CremosaApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		667B4A6B2007BD9700EB0E0D /* CremosaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667B4A7E2007BD9700EB0E0D /* Build configuration list for PBXNativeTarget "CremosaApp" */;
+			buildPhases = (
+				667B4A682007BD9700EB0E0D /* Sources */,
+				667B4A692007BD9700EB0E0D /* Frameworks */,
+				667B4A6A2007BD9700EB0E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CremosaApp;
+			productName = CremosaApp;
+			productReference = 667B4A6C2007BD9700EB0E0D /* CremosaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		667B4A642007BD9700EB0E0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ricardo Ferreira";
+				TargetAttributes = {
+					667B4A6B2007BD9700EB0E0D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 667B4A672007BD9700EB0E0D /* Build configuration list for PBXProject "CremosaApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 667B4A632007BD9700EB0E0D;
+			productRefGroup = 667B4A6D2007BD9700EB0E0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				667B4A6B2007BD9700EB0E0D /* CremosaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		667B4A6A2007BD9700EB0E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667B4A7A2007BD9700EB0E0D /* LaunchScreen.storyboard in Resources */,
+				667B4A772007BD9700EB0E0D /* Assets.xcassets in Resources */,
+				667B4A752007BD9700EB0E0D /* Main.storyboard in Resources */,
+				66ACCCEE2009208400A02295 /* wordlist2.txt in Resources */,
+				663C72E7200E98E700FD5F2B /* wordlist.txt in Resources */,
+				66ACCCEC2008FE9C00A02295 /* desculpas.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		667B4A682007BD9700EB0E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66ACCCF1200925D800A02295 /* SpamMessageClassifier.mlmodel in Sources */,
+				667B4A722007BD9700EB0E0D /* ViewController.swift in Sources */,
+				667B4A702007BD9700EB0E0D /* AppDelegate.swift in Sources */,
+				66369A432017A28500D0CAB7 /* ApologiesAppolViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		667B4A732007BD9700EB0E0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667B4A742007BD9700EB0E0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		667B4A782007BD9700EB0E0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667B4A792007BD9700EB0E0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		667B4A7C2007BD9700EB0E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		667B4A7D2007BD9700EB0E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		667B4A7F2007BD9700EB0E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD2P8464JX;
+				INFOPLIST_FILE = CremosaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.eldorado.bepid.CremosaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		667B4A802007BD9700EB0E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD2P8464JX;
+				INFOPLIST_FILE = CremosaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.eldorado.bepid.CremosaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		667B4A672007BD9700EB0E0D /* Build configuration list for PBXProject "CremosaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667B4A7C2007BD9700EB0E0D /* Debug */,
+				667B4A7D2007BD9700EB0E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667B4A7E2007BD9700EB0E0D /* Build configuration list for PBXNativeTarget "CremosaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667B4A7F2007BD9700EB0E0D /* Debug */,
+				667B4A802007BD9700EB0E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 667B4A642007BD9700EB0E0D /* Project object */;
+}

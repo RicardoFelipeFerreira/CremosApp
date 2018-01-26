@@ -1,0 +1,28 @@
+taTeEnganando	Estou cansado
+taTeEnganando	Estou cansada
+taTeEnganando	Meus pais nao deixaram
+taTeEnganando	Fulano nao deixou
+taTeEnganando	Estou sem roupa
+taTeEnganando	Trabalhei muito hoje
+taTeEnganando	Vou ficar deslocada
+taTeEnganando	Meu cachorro morreu
+taSuaveCremosaVerdadeira	Meu parente morreu
+taSuaveCremosaVerdadeira	Meu tio morreu
+taSuaveCremosaVerdadeira	Meus pais morreram
+taSuaveCremosaVerdadeira	Minha tia morreu
+taSuaveCremosaVerdadeira	Nao gosto de fulano
+taTeEnganando	Eu tenho um tempo de descanso programado
+taSuaveCremosaVerdadeira	Tenho que trabalhar
+taSuaveCremosaVerdadeira	Estou sem dinheiro
+taTeEnganando	Netflix
+taTeEnganando	Nao bebo
+taSuaveCremosaVerdadeira	Nao quero
+taSuaveCremosaVerdadeira	Nao estou afim
+taSuaveCremosaVerdadeira	Va a merda
+taTeEnganando	Eh aniversario de fulano
+taTeEnganando	Eh aniversario de fulana
+taTeEnganando	Saindo de casa
+taTeEnganando	Estou quase pronta
+taSuaveCremosaVerdadeira	Estou longe
+taTeEnganando	Serjao
+taTeEnganando   Ricardo diz que terminará a app
