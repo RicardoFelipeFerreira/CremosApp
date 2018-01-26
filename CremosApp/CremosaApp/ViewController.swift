@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         imgHumor2.isHidden = true
         shareSats.isHidden = true
         
-//        self.messageTextField.delegate = self as! UITextFieldDelegate
+        messageTextField.delegate = self as? UITextFieldDelegate
         
         //Looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.dismissKeyboard))
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     
-    func textFieldShouldReturn(messageTextField: UITextField) -> Bool // called when 'return' key pressed. return false to ignore.
+    func textFieldShouldReturn(messageTextField: UITextField) -> Bool
     {
         messageTextField.resignFirstResponder()
         return true

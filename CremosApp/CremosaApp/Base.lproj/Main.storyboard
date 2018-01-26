@@ -97,11 +97,6 @@
                                                 <rect key="frame" x="67" y="245" width="240" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJ7-Cv-WPE">
-                                                <rect key="frame" x="310" y="28" width="57" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Tutorial"/>
-                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
@@ -119,6 +114,12 @@
                                         <rect key="frame" x="127" y="309" width="120" height="179"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJ7-Cv-WPE">
+                                        <rect key="frame" x="294" y="25" width="51" height="30"/>
+                                        <state key="normal" title="Tutorial">
+                                            <color key="titleColor" red="0.15636768940000001" green="0.16786375640000001" blue="0.2093632221" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9a0-Ja-EuV">
                                         <rect key="frame" x="34" y="518" width="307" height="30"/>
                                         <state key="normal" title="Compartilhe sua indignação clicando aqui!"/>
@@ -169,6 +170,7 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="jJ7-Cv-WPE" firstAttribute="top" secondItem="5LJ-qE-GQR" secondAttribute="top" constant="25" id="01b-cx-nvj"/>
                                     <constraint firstItem="YWe-81-BeP" firstAttribute="trailing" secondItem="IoI-Ta-peF" secondAttribute="trailing" constant="140" id="0cQ-vM-8Zo"/>
                                     <constraint firstItem="YWe-81-BeP" firstAttribute="trailing" secondItem="9a0-Ja-EuV" secondAttribute="trailing" constant="34" id="0ix-aE-zF7"/>
                                     <constraint firstItem="51j-e9-mWm" firstAttribute="top" secondItem="5LJ-qE-GQR" secondAttribute="top" constant="95" id="4On-IK-JPM"/>
@@ -188,6 +190,7 @@
                                     <constraint firstAttribute="trailing" secondItem="J1j-K2-BJr" secondAttribute="trailing" id="gjI-oS-sw4"/>
                                     <constraint firstItem="X1b-9H-z46" firstAttribute="top" secondItem="YWe-81-BeP" secondAttribute="top" constant="120" id="o2E-yP-Bgn"/>
                                     <constraint firstItem="9a0-Ja-EuV" firstAttribute="leading" secondItem="YWe-81-BeP" secondAttribute="leading" constant="34" id="u7u-OJ-C3H"/>
+                                    <constraint firstItem="YWe-81-BeP" firstAttribute="trailing" secondItem="jJ7-Cv-WPE" secondAttribute="trailing" constant="30" id="vAg-VM-s3N"/>
                                     <constraint firstItem="YWe-81-BeP" firstAttribute="bottom" secondItem="9a0-Ja-EuV" secondAttribute="bottom" constant="70" id="znx-75-vfV"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="YWe-81-BeP"/>
