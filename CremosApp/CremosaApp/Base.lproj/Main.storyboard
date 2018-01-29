@@ -117,6 +117,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJ7-Cv-WPE">
                                         <rect key="frame" x="309" y="25" width="51" height="30"/>
                                         <state key="normal" title="Tutorial"/>
+                                        <connections>
+                                            <segue destination="gD9-A5-Dwf" kind="show" id="Lbf-b9-sho"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9a0-Ja-EuV">
                                         <rect key="frame" x="34" y="518" width="307" height="30"/>
@@ -219,6 +222,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nuM-KU-0T2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-39.200000000000003" y="-934.18290854572717"/>
+        </scene>
+        <!--Paged Scroll View Controller-->
+        <scene sceneID="LVY-on-bxW">
+            <objects>
+                <viewController id="gD9-A5-Dwf" customClass="PagedScrollViewController" customModule="CremosaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MrH-vP-wAV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BLy-Ig-CSQ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="P5L-63-lWC">
+                                <rect key="frame" x="168" y="615" width="39" height="37"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OQK-MZ-bL4" firstAttribute="bottom" secondItem="BLy-Ig-CSQ" secondAttribute="bottom" id="2UL-AR-SRQ"/>
+                            <constraint firstItem="OQK-MZ-bL4" firstAttribute="trailing" secondItem="BLy-Ig-CSQ" secondAttribute="trailing" id="83V-n5-iCO"/>
+                            <constraint firstItem="OQK-MZ-bL4" firstAttribute="bottom" secondItem="P5L-63-lWC" secondAttribute="bottom" constant="15" id="97T-8L-Eb2"/>
+                            <constraint firstItem="OQK-MZ-bL4" firstAttribute="trailing" secondItem="P5L-63-lWC" secondAttribute="trailing" constant="168" id="HwY-ud-doU"/>
+                            <constraint firstItem="BLy-Ig-CSQ" firstAttribute="top" secondItem="OQK-MZ-bL4" secondAttribute="top" id="IkI-Xo-Dg1"/>
+                            <constraint firstItem="P5L-63-lWC" firstAttribute="leading" secondItem="OQK-MZ-bL4" secondAttribute="leading" constant="168" id="UAt-ef-3ZP"/>
+                            <constraint firstItem="BLy-Ig-CSQ" firstAttribute="leading" secondItem="MrH-vP-wAV" secondAttribute="leading" id="eYN-wW-hHX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OQK-MZ-bL4"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="P5L-63-lWC" id="Nzj-2i-z6w"/>
+                        <outlet property="scrollView" destination="BLy-Ig-CSQ" id="hDe-9D-eIJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3rt-aC-tmJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="812" y="-934"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="D7s-X3-EkD">

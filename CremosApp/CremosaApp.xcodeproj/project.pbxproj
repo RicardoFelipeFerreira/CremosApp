@@ -13,6 +13,7 @@
 		664727DA201F9A1500C49682 /* Page2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664727D9201F9A1500C49682 /* Page2.xib */; };
 		664727DC201F9A2400C49682 /* Page3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664727DB201F9A2400C49682 /* Page3.xib */; };
 		664727DE201F9A3000C49682 /* Page4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664727DD201F9A3000C49682 /* Page4.xib */; };
+		664727E2201F9EA100C49682 /* PagedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664727E1201F9EA100C49682 /* PagedScrollViewController.swift */; };
 		667B4A702007BD9700EB0E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B4A6F2007BD9700EB0E0D /* AppDelegate.swift */; };
 		667B4A722007BD9700EB0E0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B4A712007BD9700EB0E0D /* ViewController.swift */; };
 		667B4A752007BD9700EB0E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667B4A732007BD9700EB0E0D /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		664727D9201F9A1500C49682 /* Page2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page2.xib; sourceTree = "<group>"; };
 		664727DB201F9A2400C49682 /* Page3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page3.xib; sourceTree = "<group>"; };
 		664727DD201F9A3000C49682 /* Page4.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page4.xib; sourceTree = "<group>"; };
+		664727E1201F9EA100C49682 /* PagedScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedScrollViewController.swift; sourceTree = "<group>"; };
 		667B4A6C2007BD9700EB0E0D /* CremosaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CremosaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667B4A6F2007BD9700EB0E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		667B4A712007BD9700EB0E0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				667B4A762007BD9700EB0E0D /* Assets.xcassets */,
 				667B4A782007BD9700EB0E0D /* LaunchScreen.storyboard */,
 				667B4A7B2007BD9700EB0E0D /* Info.plist */,
+				664727E1201F9EA100C49682 /* PagedScrollViewController.swift */,
 			);
 			path = CremosaApp;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				66ACCCF1200925D800A02295 /* SpamMessageClassifier.mlmodel in Sources */,
 				667B4A722007BD9700EB0E0D /* ViewController.swift in Sources */,
 				667B4A702007BD9700EB0E0D /* AppDelegate.swift in Sources */,
+				664727E2201F9EA100C49682 /* PagedScrollViewController.swift in Sources */,
 				66369A432017A28500D0CAB7 /* ApologiesAppolViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
