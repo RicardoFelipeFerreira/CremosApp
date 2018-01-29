@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		66369A432017A28500D0CAB7 /* ApologiesAppolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66369A422017A28500D0CAB7 /* ApologiesAppolViewController.swift */; };
 		663C72E7200E98E700FD5F2B /* wordlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 663C72E6200E98E700FD5F2B /* wordlist.txt */; };
+		664727D8201F99ED00C49682 /* Page1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664727D7201F99ED00C49682 /* Page1.xib */; };
+		664727DA201F9A1500C49682 /* Page2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664727D9201F9A1500C49682 /* Page2.xib */; };
+		664727DC201F9A2400C49682 /* Page3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664727DB201F9A2400C49682 /* Page3.xib */; };
+		664727DE201F9A3000C49682 /* Page4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664727DD201F9A3000C49682 /* Page4.xib */; };
 		667B4A702007BD9700EB0E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B4A6F2007BD9700EB0E0D /* AppDelegate.swift */; };
 		667B4A722007BD9700EB0E0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B4A712007BD9700EB0E0D /* ViewController.swift */; };
 		667B4A752007BD9700EB0E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667B4A732007BD9700EB0E0D /* Main.storyboard */; };
@@ -22,6 +26,10 @@
 /* Begin PBXFileReference section */
 		66369A422017A28500D0CAB7 /* ApologiesAppolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApologiesAppolViewController.swift; sourceTree = "<group>"; };
 		663C72E6200E98E700FD5F2B /* wordlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
+		664727D7201F99ED00C49682 /* Page1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page1.xib; sourceTree = "<group>"; };
+		664727D9201F9A1500C49682 /* Page2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page2.xib; sourceTree = "<group>"; };
+		664727DB201F9A2400C49682 /* Page3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page3.xib; sourceTree = "<group>"; };
+		664727DD201F9A3000C49682 /* Page4.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page4.xib; sourceTree = "<group>"; };
 		667B4A6C2007BD9700EB0E0D /* CremosaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CremosaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667B4A6F2007BD9700EB0E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		667B4A712007BD9700EB0E0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +53,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		664727D6201F99CA00C49682 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				664727D7201F99ED00C49682 /* Page1.xib */,
+				664727D9201F9A1500C49682 /* Page2.xib */,
+				664727DB201F9A2400C49682 /* Page3.xib */,
+				664727DD201F9A3000C49682 /* Page4.xib */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
 		667B4A632007BD9700EB0E0D = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +83,7 @@
 		667B4A6E2007BD9700EB0E0D /* CremosaApp */ = {
 			isa = PBXGroup;
 			children = (
+				664727D6201F99CA00C49682 /* Tutorial */,
 				667B4A6F2007BD9700EB0E0D /* AppDelegate.swift */,
 				66ACCCEB2008FE9C00A02295 /* desculpas.txt */,
 				66ACCCED2009208400A02295 /* wordlist2.txt */,
@@ -139,10 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				667B4A7A2007BD9700EB0E0D /* LaunchScreen.storyboard in Resources */,
+				664727DA201F9A1500C49682 /* Page2.xib in Resources */,
 				667B4A772007BD9700EB0E0D /* Assets.xcassets in Resources */,
+				664727DE201F9A3000C49682 /* Page4.xib in Resources */,
+				664727DC201F9A2400C49682 /* Page3.xib in Resources */,
 				667B4A752007BD9700EB0E0D /* Main.storyboard in Resources */,
 				66ACCCEE2009208400A02295 /* wordlist2.txt in Resources */,
 				663C72E7200E98E700FD5F2B /* wordlist.txt in Resources */,
+				664727D8201F99ED00C49682 /* Page1.xib in Resources */,
 				66ACCCEC2008FE9C00A02295 /* desculpas.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

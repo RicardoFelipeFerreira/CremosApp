@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Uj8-Na-RRy">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fig3" translatesAutoresizingMaskIntoConstraints="NO" id="7hf-Ke-Yq3">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0bV-nQ-O9d" firstAttribute="bottom" secondItem="7hf-Ke-Yq3" secondAttribute="bottom" id="3Wf-9e-5bB"/>
+                <constraint firstItem="7hf-Ke-Yq3" firstAttribute="top" secondItem="0bV-nQ-O9d" secondAttribute="top" constant="-20" id="4zF-Qx-pOX"/>
+                <constraint firstItem="7hf-Ke-Yq3" firstAttribute="leading" secondItem="0bV-nQ-O9d" secondAttribute="leading" id="XBy-RC-ELK"/>
+                <constraint firstItem="0bV-nQ-O9d" firstAttribute="trailing" secondItem="7hf-Ke-Yq3" secondAttribute="trailing" id="i43-JC-o33"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="0bV-nQ-O9d"/>
+            <point key="canvasLocation" x="53.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fig3" width="750" height="1334"/>
+    </resources>
+</document>
