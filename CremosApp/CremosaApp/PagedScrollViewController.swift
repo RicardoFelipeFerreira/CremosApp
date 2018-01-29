@@ -55,6 +55,12 @@ class PagedScrollViewController: UIViewController, UIScrollViewDelegate {
     }
     
     
+    @IBAction func skipButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    
+    
     /*
      // MARK: - Navigation
      
