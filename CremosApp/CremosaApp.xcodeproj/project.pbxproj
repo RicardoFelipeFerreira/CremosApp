@@ -13,7 +13,6 @@
 		664727DC201F9A2400C49682 /* Page3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664727DB201F9A2400C49682 /* Page3.xib */; };
 		664727DE201F9A3000C49682 /* Page4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664727DD201F9A3000C49682 /* Page4.xib */; };
 		664727E2201F9EA100C49682 /* PagedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664727E1201F9EA100C49682 /* PagedScrollViewController.swift */; };
-		664727E4201FAE9700C49682 /* SpamMessageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 664727E3201FAE9700C49682 /* SpamMessageClassifier.mlmodel */; };
 		664727E6201FAEBA00C49682 /* desculpas.txt in Resources */ = {isa = PBXBuildFile; fileRef = 664727E5201FAEBA00C49682 /* desculpas.txt */; };
 		667B4A702007BD9700EB0E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B4A6F2007BD9700EB0E0D /* AppDelegate.swift */; };
 		667B4A722007BD9700EB0E0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B4A712007BD9700EB0E0D /* ViewController.swift */; };
@@ -21,6 +20,7 @@
 		667B4A772007BD9700EB0E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667B4A762007BD9700EB0E0D /* Assets.xcassets */; };
 		667B4A7A2007BD9700EB0E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667B4A782007BD9700EB0E0D /* LaunchScreen.storyboard */; };
 		668138302020C60100860632 /* wordlistFinal.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6681382F2020C60100860632 /* wordlistFinal.txt */; };
+		668138342020D38E00860632 /* SpamMessageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 668138332020D38D00860632 /* SpamMessageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,6 @@
 		664727DB201F9A2400C49682 /* Page3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page3.xib; sourceTree = "<group>"; };
 		664727DD201F9A3000C49682 /* Page4.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page4.xib; sourceTree = "<group>"; };
 		664727E1201F9EA100C49682 /* PagedScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedScrollViewController.swift; sourceTree = "<group>"; };
-		664727E3201FAE9700C49682 /* SpamMessageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SpamMessageClassifier.mlmodel; sourceTree = "<group>"; };
 		664727E5201FAEBA00C49682 /* desculpas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = desculpas.txt; path = ../../../../../Desktop/python/mltesteswift/desculpas.txt; sourceTree = "<group>"; };
 		667B4A6C2007BD9700EB0E0D /* CremosaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CremosaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667B4A6F2007BD9700EB0E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		667B4A792007BD9700EB0E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		667B4A7B2007BD9700EB0E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6681382F2020C60100860632 /* wordlistFinal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlistFinal.txt; sourceTree = "<group>"; };
+		668138332020D38D00860632 /* SpamMessageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SpamMessageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 				664727E5201FAEBA00C49682 /* desculpas.txt */,
 				6681382F2020C60100860632 /* wordlistFinal.txt */,
 				66369A422017A28500D0CAB7 /* ApologiesAppolViewController.swift */,
-				664727E3201FAE9700C49682 /* SpamMessageClassifier.mlmodel */,
+				668138332020D38D00860632 /* SpamMessageClassifier.mlmodel */,
 				667B4A712007BD9700EB0E0D /* ViewController.swift */,
 				667B4A732007BD9700EB0E0D /* Main.storyboard */,
 				667B4A762007BD9700EB0E0D /* Assets.xcassets */,
@@ -177,7 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				664727E4201FAE9700C49682 /* SpamMessageClassifier.mlmodel in Sources */,
+				668138342020D38E00860632 /* SpamMessageClassifier.mlmodel in Sources */,
 				667B4A722007BD9700EB0E0D /* ViewController.swift in Sources */,
 				667B4A702007BD9700EB0E0D /* AppDelegate.swift in Sources */,
 				664727E2201F9EA100C49682 /* PagedScrollViewController.swift in Sources */,

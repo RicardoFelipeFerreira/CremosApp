@@ -64,40 +64,51 @@ class ViewController: UIViewController {
     }
     
     @IBAction func predictButton(_ sender: UIButton) {
-        let enteredMessage = messageTextField.text!
-        if(enteredMessage != ""){
-            predictLabel.text = ""
-        }
-        let vec = tfidf(sms: enteredMessage)
-        do {
+
+        predictLabel.text = "Nossa máquina topzera está analisando essa desculpa..."
+        imgHumor.isHidden = true
+        shareInd.isHidden = true
+        imgHumor2.isHidden = true
+        shareSats.isHidden = true
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             
-            print("tamanho é \(vec.count)")
-            
-            
-            let input = SpamMessageClassifierInput(message: vec)
-            let prediction = try SpamMessageClassifier().prediction(input: input).spam_or_not
-            print(prediction)
-            if (prediction == "taTeEnganando"){
-                predictLabel.text = "HMMMMM, TÁ SENDO ENGANADINHO(A)"
-//                imgHumor.image = UIImage(named: "evil")
-                imgHumor.isHidden = false
-                shareInd.isHidden = false
-                imgHumor2.isHidden = true
-                shareSats.isHidden = true
+            let enteredMessage = self.messageTextField.text!
+            if(enteredMessage != ""){
+                self.predictLabel.text = ""
+            }
+            let vec = self.tfidf(sms: enteredMessage)
+            do {
                 
+                print("tamanho é \(vec.count)")
+                
+                
+                let input = SpamMessageClassifierInput(message: vec)
+                let prediction = try SpamMessageClassifier().prediction(input: input).spam_or_not
+                print(prediction)
+                if (prediction == "taTeEnganando"){
+                    self.predictLabel.text = "HMMMMM, TÁ SENDO ENGANADINHO(A)"
+                    //                imgHumor.image = UIImage(named: "evil")
+                    self.imgHumor.isHidden = false
+                    self.shareInd.isHidden = false
+                    self.imgHumor2.isHidden = true
+                    self.shareSats.isHidden = true
+                    
+                }
+                else if (prediction == "taSuaveCremosaVerdadeira"){
+                    self.predictLabel.text = "PÔ, CREMOSA(O) VERDADEIRA(O) TOP10 CONFIA!"
+                    //                imgHumor.image = UIImage(named: "angel")
+                    self.imgHumor.isHidden = true
+                    self.shareInd.isHidden = true
+                    self.imgHumor2.isHidden = false
+                    self.shareSats.isHidden = false
+                }
             }
-            else if (prediction == "taSuaveCremosaVerdadeira"){
-                predictLabel.text = "PÔ, CREMOSA(O) VERDADEIRA(O) TOP10 CONFIA!"
-//                imgHumor.image = UIImage(named: "angel")
-                imgHumor.isHidden = true
-                shareInd.isHidden = true
-                imgHumor2.isHidden = false
-                shareSats.isHidden = false
+            catch let error{
+                print(error)
+                self.predictLabel.text = "Aí azedou né parça"
             }
-        }
-        catch let error{
-            print(error)
-            predictLabel.text = "Aí azedou né parça"
+            
         }
     }
     func tfidf(sms: String) -> MLMultiArray{
