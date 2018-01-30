@@ -65,7 +65,7 @@ class ViewController: UIViewController {
     
     @IBAction func predictButton(_ sender: UIButton) {
         if messageTextField.text == ""{
-            predictLabel.text = "Põe a mensagem aí em cima krl!"
+            predictLabel.text = "Põe a mensagem aí em cima, krl!"
             imgHumor.isHidden = true
             shareInd.isHidden = true
             imgHumor2.isHidden = true
