@@ -13,7 +13,7 @@ class ApologiesAppolViewController: UIViewController {
     
     @IBOutlet weak var phrase: UILabel!
     @IBOutlet weak var btCop: UIButton!
-    let phrases = ["Tenho que trabalhar","Estou sem dinheiro","Tô ficando resfriada, não quero passar para vocês.","Comi alguma coisa que não caiu legal. Estou passando mal.", "Tenho que levar minha vó no muay thai", "Tenho que levar minha vó pra andar de skate", "Tenho que treinar meu cachorro", "Vou ver naruto.", "Minha mãe não deixou"]
+    let phrases = ["Tenho que trabalhar","Estou sem dinheiro","Tô doente, não quero passar para vocês.","Comi alguma coisa que não caiu legal. Estou passando mal.", "Tenho que levar minha vó no muay thai", "Tenho que levar minha vó pra andar de skate", "Tenho que treinar meu cachorro", "Vou ver naruto.", "Minha mãe não deixou"]
     @IBOutlet weak var gradientView: UIView!
     var diceRoll:Int {
         get{
