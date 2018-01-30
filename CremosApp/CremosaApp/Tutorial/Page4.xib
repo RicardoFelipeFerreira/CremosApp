@@ -19,9 +19,8 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gerar" translatesAutoresizingMaskIntoConstraints="NO" id="fOu-Cf-iCn">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E também você pode gerar suas desculpas!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7t-Z7-xXg">
-                    <rect key="frame" x="25" y="516" width="334" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E também você pode gerar suas desculpas!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7t-Z7-xXg">
+                    <rect key="frame" x="20" y="516" width="334" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -29,8 +28,11 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="i7t-Z7-xXg" firstAttribute="centerX" secondItem="fOu-Cf-iCn" secondAttribute="centerX" id="0rX-Xq-wyd"/>
                 <constraint firstItem="fOu-Cf-iCn" firstAttribute="height" secondItem="hGH-7I-K7w" secondAttribute="height" id="2gH-z2-1Ku"/>
+                <constraint firstItem="i7t-Z7-xXg" firstAttribute="top" secondItem="fOu-Cf-iCn" secondAttribute="bottom" constant="-151" id="4Ck-2u-9cU"/>
                 <constraint firstItem="fOu-Cf-iCn" firstAttribute="width" secondItem="hGH-7I-K7w" secondAttribute="width" id="GnY-WP-VFW"/>
+                <constraint firstItem="LT9-5W-EQ3" firstAttribute="bottom" secondItem="i7t-Z7-xXg" secondAttribute="bottom" constant="130" id="Kar-Ns-KR1"/>
                 <constraint firstItem="fOu-Cf-iCn" firstAttribute="leading" secondItem="hGH-7I-K7w" secondAttribute="leading" id="LmM-be-HYM"/>
                 <constraint firstItem="fOu-Cf-iCn" firstAttribute="bottom" secondItem="LT9-5W-EQ3" secondAttribute="bottom" id="eT1-p2-S6V"/>
             </constraints>

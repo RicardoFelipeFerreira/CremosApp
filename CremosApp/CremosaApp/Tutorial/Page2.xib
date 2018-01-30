@@ -20,7 +20,7 @@
                     <rect key="frame" x="67" y="253" width="240" height="181"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="240" id="1nr-7Q-XdF"/>
-                        <constraint firstAttribute="height" constant="181" id="dmu-aG-Xim"/>
+                        <constraint firstAttribute="height" constant="181" id="LyV-HI-mcv"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nosso algoritmo, com base em machine learning te dirá se a pessoa está dizendo a verdade..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3M-9G-32t">
@@ -36,12 +36,11 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="qoV-ns-qNN" firstAttribute="top" secondItem="C3M-9G-32t" secondAttribute="bottom" constant="82" id="OgE-KP-oWX"/>
+                <constraint firstItem="qoV-ns-qNN" firstAttribute="top" secondItem="C3M-9G-32t" secondAttribute="bottom" constant="82" id="Dwz-bG-eZd"/>
                 <constraint firstItem="C3M-9G-32t" firstAttribute="top" secondItem="PXx-HY-oXI" secondAttribute="top" constant="67" id="WXX-so-v0c"/>
                 <constraint firstItem="C3M-9G-32t" firstAttribute="leading" secondItem="PXx-HY-oXI" secondAttribute="leading" constant="26" id="gev-EN-FcY"/>
-                <constraint firstItem="qoV-ns-qNN" firstAttribute="centerX" secondItem="PXx-HY-oXI" secondAttribute="centerX" id="nI6-Zy-Nd1"/>
+                <constraint firstItem="qoV-ns-qNN" firstAttribute="centerX" secondItem="C3M-9G-32t" secondAttribute="centerX" id="h8P-lT-z1B"/>
                 <constraint firstItem="PXx-HY-oXI" firstAttribute="trailing" secondItem="C3M-9G-32t" secondAttribute="trailing" constant="27" id="vdr-hM-5LI"/>
-                <constraint firstItem="qoV-ns-qNN" firstAttribute="centerY" secondItem="PXx-HY-oXI" secondAttribute="centerY" id="zX6-RL-sfc"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="PXx-HY-oXI"/>
             <point key="canvasLocation" x="53.5" y="54.5"/>

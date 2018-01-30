@@ -17,7 +17,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon feels bad" translatesAutoresizingMaskIntoConstraints="NO" id="ITt-IA-Tkl">
-                    <rect key="frame" x="41" y="240.5" width="292" height="206"/>
+                    <rect key="frame" x="41" y="241" width="292" height="206"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="6US-pr-jjY"/>
                         <constraint firstAttribute="height" constant="206" id="aL1-Xn-fMT"/>
@@ -36,12 +36,11 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="ITt-IA-Tkl" firstAttribute="top" secondItem="a8a-KZ-0T1" secondAttribute="bottom" constant="78.5" id="CuU-4i-NBa"/>
+                <constraint firstItem="ITt-IA-Tkl" firstAttribute="centerX" secondItem="a8a-KZ-0T1" secondAttribute="centerX" id="4Xy-AM-rEy"/>
                 <constraint firstItem="a8a-KZ-0T1" firstAttribute="leading" secondItem="0bV-nQ-O9d" secondAttribute="leading" constant="103" id="KgL-QZ-tjE"/>
-                <constraint firstItem="ITt-IA-Tkl" firstAttribute="centerX" secondItem="0bV-nQ-O9d" secondAttribute="centerX" id="aTC-Vh-BJG"/>
                 <constraint firstItem="0bV-nQ-O9d" firstAttribute="trailing" secondItem="a8a-KZ-0T1" secondAttribute="trailing" constant="103" id="b3v-HR-AuZ"/>
                 <constraint firstItem="a8a-KZ-0T1" firstAttribute="top" secondItem="0bV-nQ-O9d" secondAttribute="top" constant="121" id="cge-ko-XOY"/>
-                <constraint firstItem="ITt-IA-Tkl" firstAttribute="centerY" secondItem="0bV-nQ-O9d" secondAttribute="centerY" id="kY0-Pt-KvH"/>
+                <constraint firstItem="ITt-IA-Tkl" firstAttribute="top" secondItem="a8a-KZ-0T1" secondAttribute="bottom" constant="79" id="uka-Hq-ESc"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="0bV-nQ-O9d"/>
             <point key="canvasLocation" x="53.5" y="54.5"/>
