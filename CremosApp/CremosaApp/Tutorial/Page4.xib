@@ -16,11 +16,11 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fig4" translatesAutoresizingMaskIntoConstraints="NO" id="fQT-vk-5Wc">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gerar" translatesAutoresizingMaskIntoConstraints="NO" id="fOu-Cf-iCn">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E também você pode gerar suas desculpas!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7t-Z7-xXg">
-                    <rect key="frame" x="25" y="385" width="334" height="21"/>
+                    <rect key="frame" x="25" y="516" width="334" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
@@ -29,16 +29,16 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="LT9-5W-EQ3" firstAttribute="trailing" secondItem="fQT-vk-5Wc" secondAttribute="trailing" id="2Gc-8o-f0t"/>
-                <constraint firstItem="LT9-5W-EQ3" firstAttribute="bottom" secondItem="fQT-vk-5Wc" secondAttribute="bottom" id="GL6-AX-n1l"/>
-                <constraint firstItem="fQT-vk-5Wc" firstAttribute="leading" secondItem="LT9-5W-EQ3" secondAttribute="leading" id="Rdi-vk-iX3"/>
-                <constraint firstItem="fQT-vk-5Wc" firstAttribute="top" secondItem="LT9-5W-EQ3" secondAttribute="top" constant="-20" id="u1h-vv-1A0"/>
+                <constraint firstItem="fOu-Cf-iCn" firstAttribute="height" secondItem="hGH-7I-K7w" secondAttribute="height" id="2gH-z2-1Ku"/>
+                <constraint firstItem="fOu-Cf-iCn" firstAttribute="width" secondItem="hGH-7I-K7w" secondAttribute="width" id="GnY-WP-VFW"/>
+                <constraint firstItem="fOu-Cf-iCn" firstAttribute="leading" secondItem="hGH-7I-K7w" secondAttribute="leading" id="LmM-be-HYM"/>
+                <constraint firstItem="fOu-Cf-iCn" firstAttribute="bottom" secondItem="LT9-5W-EQ3" secondAttribute="bottom" id="eT1-p2-S6V"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="LT9-5W-EQ3"/>
             <point key="canvasLocation" x="53.5" y="54.5"/>
         </view>
     </objects>
     <resources>
-        <image name="fig4" width="750" height="1334"/>
+        <image name="gerar" width="626" height="1116"/>
     </resources>
 </document>

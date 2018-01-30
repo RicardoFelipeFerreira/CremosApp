@@ -16,12 +16,19 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fig3" translatesAutoresizingMaskIntoConstraints="NO" id="7hf-Ke-Yq3">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon feels bad" translatesAutoresizingMaskIntoConstraints="NO" id="ITt-IA-Tkl">
+                    <rect key="frame" x="41" y="240.5" width="292" height="206"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="292" id="6US-pr-jjY"/>
+                        <constraint firstAttribute="height" constant="206" id="aL1-Xn-fMT"/>
+                    </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Compartilhe com o alvo!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXn-p6-zRp">
-                    <rect key="frame" x="277" y="294" width="98" height="66"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="...ou se está mentindo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8a-KZ-0T1">
+                    <rect key="frame" x="103" y="141" width="169" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="169" id="aLr-Az-FNZ"/>
+                        <constraint firstAttribute="height" constant="21" id="jQn-YZ-8lY"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -29,16 +36,18 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="0bV-nQ-O9d" firstAttribute="bottom" secondItem="7hf-Ke-Yq3" secondAttribute="bottom" id="3Wf-9e-5bB"/>
-                <constraint firstItem="7hf-Ke-Yq3" firstAttribute="top" secondItem="0bV-nQ-O9d" secondAttribute="top" constant="-20" id="4zF-Qx-pOX"/>
-                <constraint firstItem="7hf-Ke-Yq3" firstAttribute="leading" secondItem="0bV-nQ-O9d" secondAttribute="leading" id="XBy-RC-ELK"/>
-                <constraint firstItem="0bV-nQ-O9d" firstAttribute="trailing" secondItem="7hf-Ke-Yq3" secondAttribute="trailing" id="i43-JC-o33"/>
+                <constraint firstItem="ITt-IA-Tkl" firstAttribute="top" secondItem="a8a-KZ-0T1" secondAttribute="bottom" constant="78.5" id="CuU-4i-NBa"/>
+                <constraint firstItem="a8a-KZ-0T1" firstAttribute="leading" secondItem="0bV-nQ-O9d" secondAttribute="leading" constant="103" id="KgL-QZ-tjE"/>
+                <constraint firstItem="ITt-IA-Tkl" firstAttribute="centerX" secondItem="0bV-nQ-O9d" secondAttribute="centerX" id="aTC-Vh-BJG"/>
+                <constraint firstItem="0bV-nQ-O9d" firstAttribute="trailing" secondItem="a8a-KZ-0T1" secondAttribute="trailing" constant="103" id="b3v-HR-AuZ"/>
+                <constraint firstItem="a8a-KZ-0T1" firstAttribute="top" secondItem="0bV-nQ-O9d" secondAttribute="top" constant="121" id="cge-ko-XOY"/>
+                <constraint firstItem="ITt-IA-Tkl" firstAttribute="centerY" secondItem="0bV-nQ-O9d" secondAttribute="centerY" id="kY0-Pt-KvH"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="0bV-nQ-O9d"/>
             <point key="canvasLocation" x="53.5" y="54.5"/>
         </view>
     </objects>
     <resources>
-        <image name="fig3" width="750" height="1334"/>
+        <image name="icon feels bad" width="1002" height="696"/>
     </resources>
 </document>

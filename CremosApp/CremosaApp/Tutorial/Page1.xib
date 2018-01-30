@@ -16,36 +16,54 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fig1" translatesAutoresizingMaskIntoConstraints="NO" id="nad-Tg-Y7t">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chamou a cremosa ou cremoso para sair e ele deu uma desculpa?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTK-ff-Ttw">
+                    <rect key="frame" x="92" y="306" width="267" height="67"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="67" id="0uv-eu-0MR"/>
+                        <constraint firstAttribute="width" constant="267" id="Kyf-tm-ysG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coloque a resposta do alvo e descubra se é migué ou não" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPa-dv-aac">
+                    <rect key="frame" x="92" y="352" width="259" height="67"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="259" id="THJ-Ty-0fq"/>
+                        <constraint firstAttribute="height" constant="67" id="ep2-y5-aog"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="figura 1 tutorial" translatesAutoresizingMaskIntoConstraints="NO" id="nad-Tg-Y7t">
+                    <rect key="frame" x="30" y="162" width="314" height="136"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="314" id="f3a-Lm-Ipd"/>
+                        <constraint firstAttribute="height" constant="136" id="zwH-2m-Jub"/>
+                    </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chamou a cremosa ou cremoso para sair e ele deu uma desculpa?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTK-ff-Ttw">
-                    <rect key="frame" x="108" y="331" width="267" height="67"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coloque a resposta do alvo e descubra se é migué ou não" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPa-dv-aac">
-                    <rect key="frame" x="108" y="377" width="259" height="67"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="3RG-6Z-06i" firstAttribute="bottom" secondItem="nad-Tg-Y7t" secondAttribute="bottom" id="Zwr-dh-Wdz"/>
-                <constraint firstItem="nad-Tg-Y7t" firstAttribute="top" secondItem="3RG-6Z-06i" secondAttribute="top" constant="-20" id="e9U-Jh-PG7"/>
-                <constraint firstItem="nad-Tg-Y7t" firstAttribute="leading" secondItem="3RG-6Z-06i" secondAttribute="leading" id="gyq-wP-rUg"/>
-                <constraint firstItem="3RG-6Z-06i" firstAttribute="trailing" secondItem="nad-Tg-Y7t" secondAttribute="trailing" id="ydw-3S-EhA"/>
+                <constraint firstItem="rTK-ff-Ttw" firstAttribute="top" secondItem="nad-Tg-Y7t" secondAttribute="bottom" constant="8" id="2Cw-Mq-Ns6"/>
+                <constraint firstItem="rTK-ff-Ttw" firstAttribute="leading" secondItem="3RG-6Z-06i" secondAttribute="leading" constant="92" id="Ap7-Ws-yDi"/>
+                <constraint firstItem="xPa-dv-aac" firstAttribute="top" secondItem="nad-Tg-Y7t" secondAttribute="bottom" constant="54" id="GE9-Oh-VJh"/>
+                <constraint firstItem="3RG-6Z-06i" firstAttribute="trailing" secondItem="xPa-dv-aac" secondAttribute="trailing" constant="24" id="Jlh-Eu-I04"/>
+                <constraint firstItem="nad-Tg-Y7t" firstAttribute="leading" secondItem="3RG-6Z-06i" secondAttribute="leading" constant="30" id="L7T-iN-Hue"/>
+                <constraint firstItem="3RG-6Z-06i" firstAttribute="bottom" secondItem="xPa-dv-aac" secondAttribute="bottom" constant="248" id="NFB-7i-YnT"/>
+                <constraint firstItem="rTK-ff-Ttw" firstAttribute="top" secondItem="nad-Tg-Y7t" secondAttribute="bottom" constant="8" id="NFO-9J-aBH"/>
+                <constraint firstItem="3RG-6Z-06i" firstAttribute="trailing" secondItem="nad-Tg-Y7t" secondAttribute="trailing" constant="31" id="UyO-dS-901"/>
+                <constraint firstItem="3RG-6Z-06i" firstAttribute="trailing" secondItem="rTK-ff-Ttw" secondAttribute="trailing" constant="16" id="a5J-9U-WsT"/>
+                <constraint firstItem="3RG-6Z-06i" firstAttribute="bottom" secondItem="rTK-ff-Ttw" secondAttribute="bottom" constant="294" id="bzQ-Ug-y52"/>
+                <constraint firstItem="xPa-dv-aac" firstAttribute="leading" secondItem="3RG-6Z-06i" secondAttribute="leading" constant="92" id="dsW-P4-IMB"/>
+                <constraint firstItem="nad-Tg-Y7t" firstAttribute="top" secondItem="3RG-6Z-06i" secondAttribute="top" constant="142" id="sxN-VQ-Wzd"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="3RG-6Z-06i"/>
             <point key="canvasLocation" x="53.5" y="54.5"/>
         </view>
     </objects>
     <resources>
-        <image name="fig1" width="750" height="1334"/>
+        <image name="figura 1 tutorial" width="909" height="429"/>
     </resources>
 </document>

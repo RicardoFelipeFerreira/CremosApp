@@ -16,22 +16,38 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fig2" translatesAutoresizingMaskIntoConstraints="NO" id="coq-wE-YaQ">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feels good" translatesAutoresizingMaskIntoConstraints="NO" id="qoV-ns-qNN">
+                    <rect key="frame" x="67" y="253" width="240" height="181"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="1nr-7Q-XdF"/>
+                        <constraint firstAttribute="height" constant="181" id="dmu-aG-Xim"/>
+                    </constraints>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nosso algoritmo, com base em machine learning te dirá se a pessoa está dizendo a verdade..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3M-9G-32t">
+                    <rect key="frame" x="26" y="87" width="322" height="84"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="84" id="Onr-dB-S0c"/>
+                        <constraint firstAttribute="width" constant="322" id="Sdn-Pl-Tzt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="coq-wE-YaQ" firstAttribute="top" secondItem="PXx-HY-oXI" secondAttribute="top" constant="-20" id="S0i-0B-XIM"/>
-                <constraint firstItem="PXx-HY-oXI" firstAttribute="trailing" secondItem="coq-wE-YaQ" secondAttribute="trailing" id="eU6-Ji-wZu"/>
-                <constraint firstItem="PXx-HY-oXI" firstAttribute="bottom" secondItem="coq-wE-YaQ" secondAttribute="bottom" id="gii-qS-QTv"/>
-                <constraint firstItem="coq-wE-YaQ" firstAttribute="leading" secondItem="PXx-HY-oXI" secondAttribute="leading" id="h5P-Sd-RUL"/>
+                <constraint firstItem="qoV-ns-qNN" firstAttribute="top" secondItem="C3M-9G-32t" secondAttribute="bottom" constant="82" id="OgE-KP-oWX"/>
+                <constraint firstItem="C3M-9G-32t" firstAttribute="top" secondItem="PXx-HY-oXI" secondAttribute="top" constant="67" id="WXX-so-v0c"/>
+                <constraint firstItem="C3M-9G-32t" firstAttribute="leading" secondItem="PXx-HY-oXI" secondAttribute="leading" constant="26" id="gev-EN-FcY"/>
+                <constraint firstItem="qoV-ns-qNN" firstAttribute="centerX" secondItem="PXx-HY-oXI" secondAttribute="centerX" id="nI6-Zy-Nd1"/>
+                <constraint firstItem="PXx-HY-oXI" firstAttribute="trailing" secondItem="C3M-9G-32t" secondAttribute="trailing" constant="27" id="vdr-hM-5LI"/>
+                <constraint firstItem="qoV-ns-qNN" firstAttribute="centerY" secondItem="PXx-HY-oXI" secondAttribute="centerY" id="zX6-RL-sfc"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="PXx-HY-oXI"/>
             <point key="canvasLocation" x="53.5" y="54.5"/>
         </view>
     </objects>
     <resources>
-        <image name="fig2" width="750" height="1334"/>
+        <image name="feels good" width="903" height="699"/>
     </resources>
 </document>
