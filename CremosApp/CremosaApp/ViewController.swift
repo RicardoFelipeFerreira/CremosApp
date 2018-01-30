@@ -102,7 +102,7 @@ class ViewController: UIViewController {
     }
     func tfidf(sms: String) -> MLMultiArray{
         //get path for files
-        let wordsFile = Bundle.main.path(forResource: "wordlist", ofType: "txt")
+        let wordsFile = Bundle.main.path(forResource: "wordlistFinal", ofType: "txt")
         let smsFile = Bundle.main.path(forResource: "desculpas", ofType: "txt")
         do {
             //read words file
@@ -145,14 +145,14 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func shareImageInd(_ sender: Any) {
-        let activityView = UIActivityViewController(activityItems: [self.kiddingImage1.image], applicationActivities: nil)
+        let activityView = UIActivityViewController(activityItems: [self.kiddingImage1.image!], applicationActivities: nil)
         
         activityView.popoverPresentationController?.sourceView = self.view
         
         self.present(activityView, animated: true, completion: nil)
     }
     @IBAction func shareImageSats(_ sender: Any) {
-        let activityView = UIActivityViewController(activityItems: [self.kiddingImage2.image], applicationActivities: nil)
+        let activityView = UIActivityViewController(activityItems: [self.kiddingImage2.image!], applicationActivities: nil)
         
         activityView.popoverPresentationController?.sourceView = self.view
         

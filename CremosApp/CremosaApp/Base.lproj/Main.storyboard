@@ -128,7 +128,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9a0-Ja-EuV">
                                         <rect key="frame" x="34" y="518" width="307" height="30"/>
-                                        <state key="normal" title="Compartilhe sua indignação p/ pessoa aqui!"/>
+                                        <state key="normal" title="Compartilhe sua indignação p/ pessoa!"/>
                                         <connections>
                                             <action selector="shareImageInd:" destination="dVT-OT-6wy" eventType="touchUpInside" id="8L3-9C-qR6"/>
                                         </connections>
@@ -166,7 +166,7 @@
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8E-6j-1vZ">
                                         <rect key="frame" x="34" y="518" width="307" height="30"/>
-                                        <state key="normal" title="Compartilhe sua satisfaçao p/ pessoa aqui!"/>
+                                        <state key="normal" title="Compartilhe sua satisfaçao p/ pessoa!"/>
                                         <connections>
                                             <action selector="shareImageSats:" destination="dVT-OT-6wy" eventType="touchUpInside" id="DGf-MM-T2X"/>
                                         </connections>
